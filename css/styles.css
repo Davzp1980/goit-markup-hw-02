@@ -132,13 +132,14 @@ body {
   background-color: #f4f4fd;
 }
 
-.team-h2 {
+.team-h-two {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -150,7 +151,7 @@ body {
   background-color: #ffffff;
 }
 
-.team-h3 {
+.team-h-three {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
