@@ -73,7 +73,7 @@ body {
   background-color: #2e2f42;
 }
 
-.solutions-h1 {
+.solutions-h-one {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -96,7 +96,7 @@ body {
 
 .solutions-button:hover,
 .solutions-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* Section 2 Our benefits */
