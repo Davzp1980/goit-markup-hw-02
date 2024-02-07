@@ -5,7 +5,10 @@ body {
 /* header */
 
 .header {
-  height: 72px;
+}
+
+.header-links-list {
+  list-style-type: none;
 }
 
 .logo {
@@ -16,9 +19,6 @@ body {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.logo-web {
   color: #4d5ae5;
 }
 
@@ -26,7 +26,11 @@ body {
   color: #2e2f42;
 }
 
-.header-links-list {
+.header-address-list {
+  font-style: normal;
+}
+
+.address-item-list {
   list-style-type: none;
 }
 
@@ -41,11 +45,10 @@ body {
 }
 
 .header-address-list {
-  display: flex;
   list-style-type: none;
 }
 
-.header-address {
+.address-items {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -62,9 +65,10 @@ body {
   color: #404bbf;
 }
 
-/* Effective Solutions */
+/* Section 1 Effective Solutions */
 
 .solutions {
+  background-color: #2e2f42;
 }
 
 .solutions-h1 {
@@ -90,9 +94,16 @@ body {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   */
   background: #4d5ae5;
+  cursor: pointer;
 }
 
-/* Our benefits */
+.solutions-button:hover,
+.solutions-button:focus {
+  color: #404bbf;
+}
+
+/* Section 2 Our benefits */
+
 .benefits {
 }
 
@@ -100,7 +111,7 @@ body {
   list-style-type: none;
 }
 
-.benefits-list > li > h3 {
+.benefits-h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -109,7 +120,7 @@ body {
   color: #2e2f42;
 }
 
-.benefits-list > li > p {
+.benefits-p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -118,9 +129,10 @@ body {
   color: #434455;
 }
 
-/* Our Team */
+/* Section 3 Our Team */
 
 .team {
+  background-color: #f4f4fd;
 }
 
 .team-h2 {
@@ -138,7 +150,11 @@ body {
   list-style-type: none;
 }
 
-.team-list > li > h3 {
+.team-list-item {
+  background-color: #ffffff;
+}
+
+.team-h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -148,7 +164,7 @@ body {
   color: #2e2f42;
 }
 
-.team-list > li > p {
+.team-p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -158,7 +174,7 @@ body {
   color: #434455;
 }
 
-/* Our Portfolio */
+/* Section 4 Our Portfolio */
 
 .portfolio {
 }
@@ -174,13 +190,11 @@ body {
   color: #2e2f42;
 }
 
-.portfolio-list-1,
-.portfolio-list-2 {
+.portfolio-list {
   list-style-type: none;
 }
 
-.portfolio-list-1 > li > h3,
-.portfolio-list-2 > li > h3 {
+.portfolio-h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -189,8 +203,7 @@ body {
   color: #2e2f42;
 }
 
-.portfolio-list-1 > li > p,
-.portfolio-list-2 > li > p {
+.portfolio-p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -202,17 +215,22 @@ body {
 /* Footer */
 
 .footer {
+  background-color: #2e2f42;
 }
 
 .footer > a {
   text-decoration: none;
 }
 
-.footer > p {
+.footer-p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.footer-logo-studio {
   color: #f4f4fd;
 }
